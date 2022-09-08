@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lora&family=Raleway:wght@586&display=swap"
+    rel="stylesheet">
+  <!-- owl carousel links -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="homepage.css">
+  <title>Photon - Colorlib Website Template</title>
+</head>
+
+<body> 
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <li class="nav__left_item"><a href="homepage.html" class="a1">Photon</a></li>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+        <li class="nav__middle_item"><a href="homepage.html" class="a2">HOME</a></li>
+        </li>
+        <li class="nav-item  ">
+        <li class="nav__middle_item"> <a href="gallerypage.html"> GALLERY</a></li>
+        </li>
+        <li class="nav-item">
+        <li class="nav__middle_item"><a href="service.html">SERVICES</a></li>
+        </li>
+        <li class="nav-item">
+        <li class="nav__middle_item"><a href="about.html">ABOUT</a></li>
+
+        </li>
+        <li class="nav-item">
+        <li class="nav__middle_item"><a href="contact.html">CONTACT</a></li>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <li class="nav__right_item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li class="nav__right_item"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        <li class="nav__right_item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li class="nav__right_item"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+      </form>
+    </div>
+  </nav>
+
+
+
+
+
+  <section class="slider_container">
+    <div class="container">
+      <div class="swiper card_slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="img_box">
+              <div class="moth">
+                <h2 class="sp1">Nature</h2>
+                <a href="gallerypage.html" class="btn btn-outline-white py-2 px-4 btn1 ">More Photos</a>
+              </div>
+              <div class="shadow">
+
+              </div>
+              <img src="homeimg/home1.webp" class="img1" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <div class="moth">
+                <h2 class="sp1">Portrait</h2>
+                <a href="gallerypage.html" class="btn btn-outline-white py-2 px-4 btn1">More Photos</a>
+              </div>
+              <div class="shadow">
+
+              </div>
+              <img src="homeimg/home2.webp" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <div class="moth">
+                <h2 class="sp1">People</h2>
+                <a href="gallerypage.html" class="btn btn-outline-white py-2 px-4 btn1">More Photos</a>
+              </div>
+              <div class="shadow">
+
+              </div>
+              <img src="homeimg/home3.webp" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <div class="moth">
+                <h2 class="sp1">Architecture</h2>
+                <a href="gallerypage.html" class="btn btn-outline-white py-2 px-4 btn1">More Photos</a>
+              </div>
+              <div class="shadow">
+
+              </div>
+              <img src="homeimg/home4.webp" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <div class="moth">
+                <h2 class="sp1">Animals</h2>
+                <a href="gallerypage.html" class="btn btn-outline-white py-2 px-4 btn1">More Photos</a>
+              </div>
+              <div class="shadow">
+
+              </div>
+              <img src="homeimg/home5.webp" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <div class="moth">
+                <h2 class="sp1">Sports</h2>
+                <a href="gallerypage.html" class="btn btn-outline-white py-2 px-4 btn1">More Photos</a>
+              </div>
+              <div class="shadow">
+
+              </div>
+              <img src="homeimg/home6.webp" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <div class="moth">
+                <h2 class="sp1">Travel</h2>
+                <a href="gallerypage.html" class="btn btn-outline-white py-2 px-4 btn1">More Photos</a>
+              </div>
+              <div class="shadow">
+
+              </div>
+              <img src="homeimg/home7.webp" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p class="copyrigth">
+      Copyright ©
+      <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i
+        class="fa-solid fa-heart"></i> by <a href="https://colorlib.com/" class="colorlib">Colorlib</a>
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyDOTH0HWOgol-eMiqeoBcAe57C7p6HNMgI",
+      authDomain: "photon-project-f39aa.firebaseapp.com",
+      projectId: "photon-project-f39aa",
+      storageBucket: "photon-project-f39aa.appspot.com",
+      messagingSenderId: "146941337612",
+      appId: "1:146941337612:web:0378564987bf85ed88ce29",
+      measurementId: "G-PTT3GYM9C9"
+    };
+    firebase.initializeApp(firebaseConfig); 
+  </script>
+
+  <!-- owl carousel links -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script type="text/javascript">
+    var swiper = new Swiper(".card_slider", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      },
+
+
+    });  
+  </script>
+  <script src="homepage.js"></script>
+
+</body>
+
+</html>

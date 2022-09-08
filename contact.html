@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lora&family=Raleway:wght@586&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="contact.css">
+    <title>Photon - Colorlib Website Template</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <li class="nav__left_item"><a href="homepage.html" class="a1">Photon</a></li>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                <li class="nav__middle_item"><a href="homepage.html">HOME</a></li>
+                </li>
+                <li class="nav-item  ">
+                <li class="nav__middle_item"> <a href="gallerypage.html"> GALLERY</a></li>
+                </li>
+                <li class="nav-item">
+                <li class="nav__middle_item"><a href="service.html">SERVICES</a></li>
+                </li>
+                <li class="nav-item">
+                <li class="nav__middle_item"><a href="about.html">ABOUT</a></li>
+
+                </li>
+                <li class="nav-item">
+                <li class="nav__middle_item"><a href="contact.html" class="a2">CONTACT</a></li>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <li class="nav__right_item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li class="nav__right_item"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="nav__right_item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="nav__right_item"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </form>
+        </div>
+    </nav>
+    <div class="notifi_mother">
+        <div class="notifi">
+            <img src="contacticon/checked .png" alt="">
+            <span>Your data has been successfully sent</span>
+        </div>
+    </div>
+    <section class="site-section aos-init aos-animate" data-aos="fade">
+        <div class="container">
+            <div class="container_item">
+                <div class="h2moth ">
+                    <h2>Contact Us</h2>
+                    <div style="width: 100px;height:1px;background:#000;"></div>
+                </div>
+                <div class="form_mother">
+                    <div class="formmm">
+                        <form action="#">
+                            <div class="form_item">
+                                <div class="form_item_child">
+                                    <label for="" class="text-black">First Name</label>
+                                    <input type="text" class="form-control fname" required>
+                                </div>
+                                <div class="form_item_child">
+
+                                    <label for="" class="text-black">Last Name</label>
+                                    <input type="text" class="form-control lname" required>
+                                </div>
+                            </div>
+                            <div class="form_item">
+                                <label for="" class="text-black">Email</label>
+                                <input type="email" class="form-control form-control1 email" required>
+                            </div>
+                            <div class="form_item">
+                                <label for="" class="text-black">Subject</label>
+                                <input type="text" class="form-control form-control1 subject" required>
+                            </div>
+                            <div class="form_item">
+                                <label for="message" class="text-black">Message</label>
+                                <textarea style="height:158px;" id="message" cols="30" rows="7"
+                                    placeholder="Write your notes or questions here..."
+                                    class="form-control form-control1 " required>
+                        </textarea>
+                            </div>
+                            <div class="form_item">
+                                <button type="button" class="btn btn1">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form_mother_item">
+                        <p class="sp1">Address</p>
+                        <p class="p1">13 St.Tvaltchrelidze, Tbilisi, Nutsubidze Plateau IV, Georgia</p>
+                        <p class="sp1 sp2">Phone</p>
+                        <p class="pp"> <a href="#" class="info p1">+995 571 52 52 87</a></p>
+                        <p class="sp1 sp2">Email Address</p>
+                        <p class="pp"> <a href="#" class="info ">mikadzevazha1@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="copyrigth">
+            Copyright ©
+            <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with
+            <i class="fa-solid fa-heart"></i> by <a href="https://colorlib.com/" class="colorlib"
+                target="_blank">Colorlib</a>
+        </p>
+    </footer>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyDLYnFX1_8JASF2YE-J9mDdiqNYq-loDAY",
+            authDomain: "user-info-photon.firebaseapp.com",
+            projectId: "user-info-photon",
+            storageBucket: "user-info-photon.appspot.com",
+            messagingSenderId: "290333999586",
+            appId: "1:290333999586:web:30f463c140369724b7b9bb",
+            measurementId: "G-4L7TW9CVWN"
+        };
+        firebase.initializeApp(firebaseConfig)
+    </script>
+    <script src="contact.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
